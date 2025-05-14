@@ -1,0 +1,13 @@
+@import "./stylecomponents/header";
+@import "./stylecomponents/nav";
+@import "./stylecomponents/_section-hero";
+@import "./stylecomponents/_section-products-info";
+@import "./stylecomponents/variables.scss";
+@import "./stylecomponents/section_product-type";
+@import "./stylecomponents/section-rooms";
+@import "./stylecomponents/section-trend";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

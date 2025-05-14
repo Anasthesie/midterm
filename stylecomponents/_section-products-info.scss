@@ -1,0 +1,47 @@
+@import "./variables.scss";
+
+.second-container {
+  width: $second-container-wth;
+  margin: $second-container-mar;
+  section#products-info {
+    margin-bottom: 50px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .searchfor {
+      p {
+        font-size: 12px;
+        color: #0b3954;
+      }
+      .colored {
+        color: #ffb128;
+        font-size: 48px;
+        h2 {
+          width: 310px;
+          color: #0b3954;
+        }
+      }
+    }
+    .product-detalis {
+      display: flex;
+      gap: 40px;
+      .amount {
+        font-size: 24px;
+        color: #0b3954;
+        p {
+          font-size: 16px;
+          color: #5c676d;
+        }
+      }
+      .year {
+        font-size: 24px;
+        color: #0b3954;
+        p {
+          font-size: 16px;
+          color: #5c676d;
+        }
+      }
+    }
+  }
+}

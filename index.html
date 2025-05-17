@@ -20,7 +20,12 @@
         <div class="header-wrap">
           <div class="logoandsearch">
             <div class="logo">
-              <img src="./imgs/logo.svg" alt="logo" />
+              <img
+                id="logo"
+                onclick="backMainPageByLogo()"
+                src="./imgs/logo.svg"
+                alt="logo"
+              />
             </div>
             <div class="searchInput">
               <img src="./imgs/searchSymbol.svg" alt="search icon" />
@@ -37,8 +42,21 @@
               <img src="./imgs/wishlist.svg" />
             </div>
             <div class="user">
-              <img src="./imgs/user.svg" />
+              <img id="user" src="./imgs/user.svg" />
             </div>
+          </div>
+        </div>
+        <div class="hidden-login-container">
+          <div class="login-header">
+            <h6>Login</h6>
+          </div>
+
+          <input type="text" placeholder="Username or email" />
+          <input type="password" placeholder="Password" />
+
+          <div class="btnandp">
+            <button>Login</button>
+            <p>Lost your password?</p>
           </div>
         </div>
       </div>
@@ -292,5 +310,6 @@
         </section>
       </div>
     </main>
+    <script src="./script.js"></script>
   </body>
 </html>

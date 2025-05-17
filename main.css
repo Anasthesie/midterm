@@ -101,7 +101,7 @@ nav {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 999;
   background-color: #ffff;
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -456,16 +456,20 @@ section#products-type .products-filter-section .card:hover {
 .second-section section#trends .txt .title {
   color: #0b3954;
   font-size: 12px;
+  margin-bottom: 10px;
 }
 
 .second-section section#trends .txt h5 {
   font-size: 48px;
   color: #0b3954;
+  margin-bottom: 20px;
 }
 
 .second-section section#trends .txt p {
-  font-size: 16px;
+  font-size: 18px;
   color: #5c676d;
+  margin-bottom: 30px;
+  max-width: 250px;
 }
 
 .second-section section#trends .txt button {
@@ -476,6 +480,73 @@ section#products-type .products-filter-section .card:hover {
   border: none;
   padding: 15px 30px 15px 30px;
   cursor: pointer;
+}
+
+.second-section section#trends .txt button:hover {
+  background-color: #0b3954;
+}
+
+.hidden-login-container {
+  background-color: #ffff;
+  width: 250px;
+  height: 250px;
+  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  top: 25%;
+  right: -360px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 1000;
+}
+
+.hidden-login-container.show {
+  right: 10px;
+}
+
+.hidden-login-container h6 {
+  color: #0c3954;
+  font-size: 26px;
+}
+
+.hidden-login-container input {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 10px 20px 10px 10px;
+  border: 1px solid #ffb028;
+  border-radius: 10px;
+  outline: none;
+}
+
+.hidden-login-container button {
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #ffb028;
+  border: none;
+  font-size: 16px;
+  padding: 10px 60px 10px 60px;
+  border-radius: 20px;
+}
+
+.hidden-login-container p {
+  color: #0c3954;
+  font-size: 14px;
+  padding-left: 18px;
 }
 
 * {

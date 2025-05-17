@@ -7,8 +7,11 @@
 @import "./stylecomponents/section-rooms";
 @import "./stylecomponents/section-trend";
 @import "./stylecomponents/hidden-login";
+@import "./stylecomponents/side-cart";
+@import "./stylecomponents/dropdown";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }

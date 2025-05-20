@@ -40,6 +40,11 @@
     padding: 10px 60px 10px 60px;
     border-radius: 20px;
   }
+  button:hover {
+    color: $color-white;
+    background-color: $color-dark-blue;
+    transition: $hover-transition;
+  }
   p {
     color: $color-dark-blue;
     font-size: 14px;

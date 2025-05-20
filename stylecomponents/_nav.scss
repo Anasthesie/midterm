@@ -45,11 +45,13 @@ nav {
       }
 
       > li:not(.highlighted):hover span {
+        transition: $hover-transition;
         color: $color-orange;
       }
 
       > li:not(.highlighted):hover span svg path {
         fill: $color-orange;
+        transition: $hover-transition;
       }
     }
 
@@ -61,6 +63,7 @@ nav {
     }
     .highlighted:hover {
       background-color: $color-dark-blue;
+      transition: $hover-transition;
     }
     .white {
       color: $color-white;

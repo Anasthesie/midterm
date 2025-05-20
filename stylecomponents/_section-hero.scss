@@ -60,6 +60,7 @@ section#hero {
       background-color: $color-white;
       border: none;
       color: $color-orange;
+      transition: $hover-transition;
     }
     .btnwhite {
       background-color: $color-white;
@@ -74,6 +75,7 @@ section#hero {
       background-color: $color-orange;
       color: $color-white;
       border: none;
+      transition: $hover-transition;
     }
   }
 }

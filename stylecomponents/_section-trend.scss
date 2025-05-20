@@ -35,6 +35,7 @@
       }
       button:hover {
         background-color: $color-dark-blue;
+        transition: $hover-transition;
       }
     }
   }

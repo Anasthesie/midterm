@@ -445,6 +445,14 @@ section#products-type .products-filter-section .card:hover {
   cursor: pointer;
 }
 
+.third-container section#rooms .room .description h4:hover {
+  color: #ffb128;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 .second-section {
   width: 1170px;
   margin: auto;

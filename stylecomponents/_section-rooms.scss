@@ -31,6 +31,11 @@
           padding-top: 20px;
           cursor: pointer;
         }
+        h4:hover {
+          color: $color-orange;
+          transform: scale(1.05);
+          transition: $hover-transition;
+        }
       }
     }
   }

@@ -1,5 +1,5 @@
 .hidden-login-container {
-  background-color: #ffff;
+  background-color: $color-white;
   width: 250px;
   height: 250px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
@@ -18,14 +18,14 @@
   }
 
   h6 {
-    color: #0c3954;
+    color: $color-dark-blue;
     font-size: 26px;
   }
   input {
     margin-bottom: 5px;
     margin-top: 5px;
     padding: 10px 20px 10px 10px;
-    border: 1px solid #ffb028;
+    border: 1px solid $color-orange;
     border-radius: 10px;
     outline: none;
   }
@@ -33,15 +33,15 @@
   button {
     margin-bottom: 10px;
     cursor: pointer;
-    color: #fff;
-    background-color: #ffb028;
+    color: $color-white;
+    background-color: $color-orange;
     border: none;
     font-size: 16px;
     padding: 10px 60px 10px 60px;
     border-radius: 20px;
   }
   p {
-    color: #0c3954;
+    color: $color-dark-blue;
     font-size: 14px;
     padding-left: 18px;
   }

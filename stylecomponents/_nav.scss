@@ -2,7 +2,7 @@ nav {
   position: sticky;
   top: 0;
   z-index: 999;
-  background-color: #ffff;
+  background-color: $color-white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
   .second-container {
@@ -21,7 +21,7 @@ nav {
       > li {
         position: relative;
         padding: 20px 30px;
-        border-right: 1px solid #f5f5f5;
+        border-right: 1px solid $color-light-grey;
 
         > a {
           display: flex;
@@ -32,7 +32,7 @@ nav {
 
           span {
             padding-top: 9px;
-            color: #0b3954;
+            color: $color-dark-blue;
             display: flex;
             align-items: center;
             gap: 6px;
@@ -45,25 +45,25 @@ nav {
       }
 
       > li:not(.highlighted):hover span {
-        color: #ffb128;
+        color: $color-orange;
       }
 
       > li:not(.highlighted):hover span svg path {
-        fill: #ffb128;
+        fill: $color-orange;
       }
     }
 
     .highlighted {
-      background-color: #ffb128;
+      background-color: $color-orange;
       border-top-left-radius: 16px;
       border-top-right-radius: 16px;
       padding: 26px 50px;
     }
     .highlighted:hover {
-      background-color: #0b3954;
+      background-color: $color-dark-blue;
     }
     .white {
-      color: #ffff;
+      color: $color-white;
     }
   }
 }

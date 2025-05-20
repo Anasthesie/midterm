@@ -9,32 +9,32 @@
     gap: 80px;
     .txt {
       .title {
-        color: #0b3954;
+        color: $color-dark-blue;
         font-size: 12px;
         margin-bottom: 10px;
       }
       h5 {
         font-size: 48px;
-        color: #0b3954;
+        color: $color-dark-blue;
         margin-bottom: 20px;
       }
       p {
         font-size: 18px;
-        color: #5c676d;
+        color: $color-dark-grey;
         margin-bottom: 30px;
         max-width: 250px;
       }
       button {
-        color: #ffff;
+        color: $color-white;
         font-size: 14px;
         border-radius: 80px;
-        background-color: #ffb128;
+        background-color: $color-orange;
         border: none;
         padding: 15px 30px 15px 30px;
         cursor: pointer;
       }
       button:hover {
-        background-color: #0b3954;
+        background-color: $color-dark-blue;
       }
     }
   }

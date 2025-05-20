@@ -30,7 +30,7 @@ section#hero {
     .text-content {
       position: absolute;
       top: 0%;
-      color: #ffff;
+      color: $color-white;
       padding-top: 90px;
       padding-left: 50px;
       p {
@@ -48,31 +48,31 @@ section#hero {
     align-items: center;
     gap: 20px;
     .btnyellow {
-      background-color: #ffb128;
+      background-color: $color-orange;
       border: none;
-      color: #ffff;
+      color: $color-white;
       padding: 11px 30px 11px 30px;
       border-radius: 45px;
       cursor: pointer;
       font-size: 14px;
     }
     .btnyellow:hover {
-      background-color: #ffff;
+      background-color: $color-white;
       border: none;
-      color: #ffb128;
+      color: $color-orange;
     }
     .btnwhite {
-      background-color: #ffff;
+      background-color: $color-white;
       border: none;
-      color: #ffb128;
+      color: $color-orange;
       padding: 11px 30px 11px 30px;
       border-radius: 45px;
       cursor: pointer;
       font-size: 14px;
     }
     .btnwhite:hover {
-      background-color: #ffb128;
-      color: #ffff;
+      background-color: $color-orange;
+      color: $color-white;
       border: none;
     }
   }

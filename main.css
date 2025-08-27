@@ -255,31 +255,35 @@ section#hero .btn-group {
 }
 
 section#hero .btn-group .btnyellow {
-  background-color: #ffb128;
-  border: none;
-  color: #ffff;
-  padding: 11px 30px 11px 30px;
-  border-radius: 45px;
-  cursor: pointer;
   font-size: 14px;
+  border-radius: 45px;
+  padding: 11px 30px;
+  background-color: #ffb128;
+  color: #ffff;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 section#hero .btn-group .btnyellow:hover {
   background-color: #ffff;
-  border: none;
   color: #ffb128;
+  border: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 section#hero .btn-group .btnwhite {
-  background-color: #ffff;
-  border: none;
-  color: #ffb128;
-  padding: 11px 30px 11px 30px;
-  border-radius: 45px;
-  cursor: pointer;
   font-size: 14px;
+  border-radius: 45px;
+  padding: 11px 30px;
+  background-color: #ffff;
+  color: #ffb128;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 section#hero .btn-group .btnwhite:hover {
@@ -492,17 +496,21 @@ section#products-type .products-filter-section .card:hover {
 }
 
 .second-section section#trends .txt button {
-  color: #ffff;
   font-size: 14px;
   border-radius: 80px;
+  padding: 15px 30px;
   background-color: #ffb128;
+  color: #ffff;
   border: none;
-  padding: 15px 30px 15px 30px;
   cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .second-section section#trends .txt button:hover {
   background-color: #0b3954;
+  color: #ffff;
+  border: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }

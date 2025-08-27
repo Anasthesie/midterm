@@ -41,41 +41,22 @@ section#hero {
       }
     }
   }
-
   .btn-group {
     padding-top: 36px;
     display: flex;
     align-items: center;
     gap: 20px;
     .btnyellow {
-      background-color: $color-orange;
-      border: none;
-      color: $color-white;
-      padding: 11px 30px 11px 30px;
-      border-radius: 45px;
-      cursor: pointer;
-      font-size: 14px;
+      @include button-three(14px, 45px, 11px 30px, $color-orange, $color-white);
     }
     .btnyellow:hover {
-      background-color: $color-white;
-      border: none;
-      color: $color-orange;
-      transition: $hover-transition;
+      @include button-hover($color-white, $color-orange);
     }
     .btnwhite {
-      background-color: $color-white;
-      border: none;
-      color: $color-orange;
-      padding: 11px 30px 11px 30px;
-      border-radius: 45px;
-      cursor: pointer;
-      font-size: 14px;
+      @include button-three(14px, 45px, 11px 30px, $color-white, $color-orange);
     }
     .btnwhite:hover {
-      background-color: $color-orange;
-      color: $color-white;
-      border: none;
-      transition: $hover-transition;
+      @include button-hover($color-orange, $color-white);
     }
   }
 }

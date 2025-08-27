@@ -1,4 +1,5 @@
 @import "./stylecomponents/variables";
+@import "./stylecomponents/mixins";
 @import "./stylecomponents/header";
 @import "./stylecomponents/nav";
 @import "./stylecomponents/_section-hero";
@@ -9,6 +10,7 @@
 @import "./stylecomponents/hidden-login";
 @import "./stylecomponents/side-cart";
 @import "./stylecomponents/dropdown";
+
 * {
   margin: 0;
   padding: 0;
